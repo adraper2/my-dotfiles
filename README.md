@@ -22,7 +22,7 @@ I am still using the out-of-the-box terminal on mac osx. The `terminal` folder h
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
 
 ## NeoVim config
-This is a work in progress. I am still transitioning off of my vimrc commands to lua. Hence, the temporary `init.vim` and `temp.lua` files. *`temp.lua` will become `init.lua`.
+This is a work in progress. I am still transitioning off of my vimrc commands to lua. Hence, the temporary `init.vim` and `temp.lua` files. *`temp.lua` will become `init.lua`*.
 
 - [ ] Finished?
 
@@ -30,4 +30,4 @@ This is a work in progress. I am still transitioning off of my vimrc commands to
 For the future...
 
 ## git config
-I use a list of bash commands, primarily from a former colleague. Check out their repo! [glassresistor/git_bin](https://github.com/glassresistor/git_bin)
+I use a list of bash commands, primarily from a former colleague. Check out their repo [glassresistor/git_bin](https://github.com/glassresistor/git_bin).
