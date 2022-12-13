@@ -8,8 +8,9 @@ eval /Users/aidan.draper/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
 set -gx EDITOR nvim
-alias vim="nvim"
-alias vi='/opt/homebrew/bin/vim'
+alias vim "nvim"
+alias vi '/opt/homebrew/bin/vim'
+alias g git
 
 set -gx PATH /opt/homebrew/sbin $PATH
 set -gx PATH /opt/homebrew/bin $PATH
@@ -22,19 +23,16 @@ set -U __done_notification_urgency_level low
 # source ~/.bash_profile
 
 # MY BASHRC ALIASES
-alias ducks='du -cks * | sort -rn | head -15'
-alias get-ip='ipconfig getifaddr en0'
+alias ducks 'du -cks * | sort -rn | head -15'
+alias get-ip 'ipconfig getifaddr en0'
 
 # some more ls aliases
 if type -q exa
     alias ll "exa -l -g --icons"
     alias lla "ll -a"
+    alias lg "exa --long --git -a --git-ignore"
     alias tree "exa --tree"
 end
-# alias ls='ls -G'
-# alias ll='ls -alGF'
-# alias la='ls -AG'
-# alias l='ls -CFG'
 
 alias make-key='openssl rand -hex 30'
 
@@ -50,7 +48,7 @@ alias make-key='openssl rand -hex 30'
 function cact
     conda activate $argv
 end
-alias deak='conda deactivate'
+alias deak 'conda deactivate'
 set -gx PYTHONBREAKPOINT ipdb.set_trace
 set -x RELEASE_BRANCH_NAME main # this will be master for orig branch
 
