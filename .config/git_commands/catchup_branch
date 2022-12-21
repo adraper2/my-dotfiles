@@ -1,0 +1,2 @@
+git fetch origin
+git merge origin/$RELEASE_BRANCH_NAME

@@ -31,7 +31,7 @@ if type -q exa
     alias ll "exa -l -g --icons"
     alias lla "ll -a"
     alias lg "exa --long --git -a --git-ignore"
-    alias tree "exa --tree"
+    alias tree "exa --tree --level 2"
 end
 
 alias make-key='openssl rand -hex 30'
