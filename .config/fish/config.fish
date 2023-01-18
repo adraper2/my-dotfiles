@@ -4,7 +4,7 @@ set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /Users/aidan.draper/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+eval $HOME/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
 set -gx EDITOR nvim
@@ -14,7 +14,7 @@ alias g git
 
 set -gx PATH /opt/homebrew/sbin $PATH
 set -gx PATH /opt/homebrew/bin $PATH
-set -gx PATH /Users/aidan.draper/.pyenv/shims $PATH
+set -gx PATH $HOME/.pyenv/shims $PATH
 
 # Set settings for https://github.com/franciscolourenco/done
 set -U __done_min_cmd_duration 10000
