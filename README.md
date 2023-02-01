@@ -17,9 +17,13 @@ I am still using the out-of-the-box terminal on mac osx. The `terminal` folder h
 - [Fish shell](https://fishshell.com/)
 - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
 - [Tide](https://github.com/IlanCosman/tide) - Use version 5: `fisher install ilancosman/tide@v5`
-- [z for fish](https://github.com/jethrokuan/z) - Fuzzy match dir search
-- [Exa](https://the.exa.website/) - pretty print `ls`
+- [z for fish](https://github.com/jethrokuan/z) - Fuzzy match dir search `fisher install jethrokuan/z`
+- [Exa](https://the.exa.website/) - pretty print `ls`; `brew install exa`
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
+
+### Setup: Nerd Fonts
+1. `brew tap homebrew/cask-fonts`
+2. brew install --cask <font_name>
 
 ## NeoVim config
 This is a work in progress. I am still transitioning off of my vimrc commands to lua. Hence, the temporary `init.vim` and `temp.lua` files. *`temp.lua` will become `init.lua`*.
