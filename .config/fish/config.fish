@@ -4,7 +4,7 @@ set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /Users/draper/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+eval $HOME/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
 set -gx EDITOR nvim
