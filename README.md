@@ -21,6 +21,13 @@ I am still using the out-of-the-box terminal on mac osx. The `terminal` folder h
 - [Exa](https://the.exa.website/) - pretty print `ls`; `brew install exa`
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
 
+### Fish Commits
+*Reminding myself how to commit for fish changes
+- exclude conf.d except `tide.fish`
+- exclude functions 
+- include custom completions files
+- include `config.fish`
+
 ### Setup: Nerd Fonts
 1. `brew tap homebrew/cask-fonts`
 2. brew install --cask <font_name>
